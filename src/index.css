@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@keyframes slideOut {
+  0% { transform: translateX(0); opacity: 0; }
+  100% { transform: translateX(10px); opacity: 1; }
+}
+.animate-slide-out {
+  animation: slideOut 0.8s ease-in-out forwards;
+}
